@@ -1,0 +1,51 @@
+.story-transition-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background: transparent;
+  position: relative;
+}
+
+.story-line {
+  width: 2px;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, var(--saffron, #ff9933), transparent);
+  margin: 20px 0;
+}
+
+.story-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 40px;
+  background: rgba(255, 153, 51, 0.03);
+  border: 1px solid rgba(255, 153, 51, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+.story-chapter {
+  display: block;
+  font-family: 'Cinzel', serif;
+  color: var(--saffron, #ff9933);
+  letter-spacing: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.story-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.story-text {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.6;
+  font-style: italic;
+}

@@ -18,8 +18,7 @@ export default function Navbar() {
       </div>
       <ul className="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#chakravyuha">Chakravyuha</a></li>
+        <li><a href="#sports">Events</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#sponsors">Sponsors</a></li>
